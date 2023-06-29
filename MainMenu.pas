@@ -14,10 +14,14 @@ type
     ABLEORTU1: TMenuItem;
     ABLEWALIKELAS1: TMenuItem;
     ABLEKELAS1: TMenuItem;
+    ABLESEMESTER1: TMenuItem;
+    ABLE1: TMenuItem;
     procedure ABLESISWA1Click(Sender: TObject);
     procedure ABLEORTU1Click(Sender: TObject);
     procedure ABLEWALIKELAS1Click(Sender: TObject);
     procedure ABLEKELAS1Click(Sender: TObject);
+    procedure ABLESEMESTER1Click(Sender: TObject);
+    procedure ABLE1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -29,7 +33,8 @@ var
 
 implementation
 
-uses TableSiswa, TableOrtu, TableWaliKelas, TableKelas;
+uses TableSiswa, TableOrtu, TableWaliKelas, TableKelas, TableHubungan,
+  TablePoin;
 
 {$R *.dfm}
 
@@ -51,6 +56,16 @@ end;
 procedure TForm1.ABLEKELAS1Click(Sender: TObject);
 begin
 form5.showmodal;
+end;
+
+procedure TForm1.ABLESEMESTER1Click(Sender: TObject);
+begin
+form6.showmodal;
+end;
+
+procedure TForm1.ABLE1Click(Sender: TObject);
+begin
+form7.showmodal;
 end;
 
 end.

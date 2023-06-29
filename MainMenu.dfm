@@ -1,10 +1,10 @@
 object Form1: TForm1
-  Left = 231
-  Top = 188
+  Left = 273
+  Top = 207
   Width = 1044
-  Height = 540
+  Height = 536
   Caption = 'Main Menu'
-  Color = clBtnFace
+  Color = clMoneyGreen
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
@@ -26,6 +26,14 @@ object Form1: TForm1
       object ABLEORTU1: TMenuItem
         Caption = 'TABLE ORTU'
         OnClick = ABLEORTU1Click
+      end
+      object ABLEWALIKELAS1: TMenuItem
+        Caption = 'TABLE WALI KELAS'
+        OnClick = ABLEWALIKELAS1Click
+      end
+      object ABLEKELAS1: TMenuItem
+        Caption = 'TABLE KELAS'
+        OnClick = ABLEKELAS1Click
       end
     end
   end

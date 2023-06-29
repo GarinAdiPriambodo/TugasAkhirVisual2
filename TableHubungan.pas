@@ -44,6 +44,7 @@ type
     procedure b6Click(Sender: TObject);
     procedure dg1CellClick(Column: TColumn);
     procedure FormCreate(Sender: TObject);
+    procedure FormShow(Sender: TObject);
 
   private
     { Private declarations }
@@ -187,7 +188,7 @@ end;
 procedure TForm6.dg1CellClick(Column: TColumn);
 begin
 enable;
-b1.Enabled:= true;
+b1.Enabled:= False;
 b2.Enabled:= False;
 b3.Enabled:= True;
 b4.Enabled:= True;
@@ -214,6 +215,13 @@ begin
   cbb2.items.add(zqry3.fieldbyname('id_ortu').asstring);
   zqry3.Next;
 end;
+end;
+
+procedure TForm6.FormShow(Sender: TObject);
+begin
+setawal;
+zqry1.Active:= False;
+zqry1.Active:= True;
 end;
 
 end.

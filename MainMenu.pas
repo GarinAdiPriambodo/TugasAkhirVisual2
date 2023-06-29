@@ -4,7 +4,7 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, Menus;
+  Dialogs, Menus, jpeg, ExtCtrls;
 
 type
   TForm1 = class(TForm)
@@ -18,6 +18,9 @@ type
     ABLE1: TMenuItem;
     ABLESEMESTER2: TMenuItem;
     ABLEUSER1: TMenuItem;
+    LOGOUT1: TMenuItem;
+    EXIT1: TMenuItem;
+    img1: TImage;
     procedure ABLESISWA1Click(Sender: TObject);
     procedure ABLEORTU1Click(Sender: TObject);
     procedure ABLEWALIKELAS1Click(Sender: TObject);
@@ -26,6 +29,8 @@ type
     procedure ABLE1Click(Sender: TObject);
     procedure ABLESEMESTER2Click(Sender: TObject);
     procedure ABLEUSER1Click(Sender: TObject);
+    procedure LOGOUT1Click(Sender: TObject);
+    procedure EXIT1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -38,7 +43,7 @@ var
 implementation
 
 uses TableSiswa, TableOrtu, TableWaliKelas, TableKelas, TableHubungan,
-  TablePoin, TableSemester, TableUser;
+  TablePoin, TableSemester, TableUser, FormLogin;
 
 {$R *.dfm}
 
@@ -80,6 +85,25 @@ end;
 procedure TForm1.ABLEUSER1Click(Sender: TObject);
 begin
 form9.showmodal;
+end;
+
+procedure TForm1.LOGOUT1Click(Sender: TObject);
+begin
+hide;
+form10.Show;
+end;
+
+procedure TForm1.EXIT1Click(Sender: TObject);
+begin
+if MessageDlg('APAKAH INGIN MENUTUP APLIKASI INI ?',mtWarning,[mbYes,mbNo],0)= mryes then
+begin
+Application.Terminate;
+end else
+begin
+hide;
+form1.ShowModal;
+end;
+
 end;
 
 end.

@@ -219,7 +219,7 @@ end;
 procedure TForm2.dg1CellClick(Column: TColumn);
 begin
 enable;
-b1.Enabled:= true;
+b1.Enabled:= False;
 b2.Enabled:= False;
 b3.Enabled:= True;
 b4.Enabled:= True;

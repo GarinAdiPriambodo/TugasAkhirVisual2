@@ -1,6 +1,6 @@
 object Form6: TForm6
-  Left = 293
-  Top = 150
+  Left = 253
+  Top = 190
   Width = 1044
   Height = 598
   Caption = 'TABLE HUBUNGAN'
@@ -12,6 +12,7 @@ object Form6: TForm6
   Font.Style = []
   OldCreateOrder = False
   OnCreate = FormCreate
+  OnShow = FormShow
   PixelsPerInch = 96
   TextHeight = 13
   object l1: TLabel

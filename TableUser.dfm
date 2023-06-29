@@ -1,6 +1,6 @@
 object Form9: TForm9
-  Left = 480
-  Top = 250
+  Left = 383
+  Top = 261
   Width = 728
   Height = 359
   Caption = 'TABLE USER'
@@ -17,7 +17,7 @@ object Form9: TForm9
   object l2: TLabel
     Left = 16
     Top = 16
-    Width = 97
+    Width = 90
     Height = 27
     Caption = 'Username'
     Font.Charset = ANSI_CHARSET
@@ -30,7 +30,7 @@ object Form9: TForm9
   object l3: TLabel
     Left = 16
     Top = 56
-    Width = 97
+    Width = 82
     Height = 27
     Caption = 'Password'
     Font.Charset = ANSI_CHARSET
@@ -43,7 +43,7 @@ object Form9: TForm9
   object l4: TLabel
     Left = 16
     Top = 96
-    Width = 97
+    Width = 46
     Height = 27
     Caption = 'Level'
     Font.Charset = ANSI_CHARSET
@@ -56,7 +56,7 @@ object Form9: TForm9
   object l5: TLabel
     Left = 16
     Top = 136
-    Width = 97
+    Width = 61
     Height = 27
     Caption = 'Status'
     Font.Charset = ANSI_CHARSET

@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 311
-  Top = 181
+  Left = 326
+  Top = 203
   Width = 1044
   Height = 536
   Caption = 'Main Menu'
@@ -42,6 +42,14 @@ object Form1: TForm1
       object ABLE1: TMenuItem
         Caption = 'TABLE POIN'
         OnClick = ABLE1Click
+      end
+      object ABLESEMESTER2: TMenuItem
+        Caption = 'TABLE SEMESTER'
+        OnClick = ABLESEMESTER2Click
+      end
+      object ABLEUSER1: TMenuItem
+        Caption = 'TABLE USER'
+        OnClick = ABLEUSER1Click
       end
     end
   end

@@ -8,7 +8,9 @@ uses
   TableWaliKelas in 'TableWaliKelas.pas' {Form4},
   TableKelas in 'TableKelas.pas' {Form5},
   TableHubungan in 'TableHubungan.pas' {Form6},
-  TablePoin in 'TablePoin.pas' {Form7};
+  TablePoin in 'TablePoin.pas' {Form7},
+  TableSemester in 'TableSemester.pas' {Form8},
+  TableUser in 'TableUser.pas' {Form9};
 
 {$R *.res}
 
@@ -21,5 +23,7 @@ begin
   Application.CreateForm(TForm5, Form5);
   Application.CreateForm(TForm6, Form6);
   Application.CreateForm(TForm7, Form7);
+  Application.CreateForm(TForm8, Form8);
+  Application.CreateForm(TForm9, Form9);
   Application.Run;
 end.

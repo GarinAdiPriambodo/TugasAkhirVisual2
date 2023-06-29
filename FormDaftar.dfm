@@ -1,8 +1,8 @@
 object Form11: TForm11
   Left = 544
   Top = 188
-  Width = 467
-  Height = 426
+  Width = 464
+  Height = 425
   Caption = 'FORM DAFTAR'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET

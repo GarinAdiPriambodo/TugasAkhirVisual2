@@ -1,8 +1,8 @@
 object Form10: TForm10
-  Left = 261
-  Top = 270
-  Width = 567
-  Height = 418
+  Left = 458
+  Top = 249
+  Width = 560
+  Height = 425
   Caption = 'FORM LOGIN'
   Color = clMoneyGreen
   Font.Charset = DEFAULT_CHARSET
@@ -17,7 +17,7 @@ object Form10: TForm10
   object img1: TImage
     Left = -16
     Top = 0
-    Width = 553
+    Width = 561
     Height = 385
     Center = True
     ParentShowHint = False

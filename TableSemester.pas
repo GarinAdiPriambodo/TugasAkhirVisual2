@@ -56,6 +56,7 @@ type
     procedure b5Click(Sender: TObject);
     procedure b6Click(Sender: TObject);
     procedure dg1CellClick(Column: TColumn);
+    procedure FormShow(Sender: TObject);
   private
     { Private declarations }
   public
@@ -257,6 +258,11 @@ dtp1.Date:=Form8.zqry1.Fields[6].AsDateTime;
 e1.Text:= zqry1.FieldList[7].AsString;
 e2.Text:= zqry1.FieldList[8].AsString;
 e3.Text:= zqry1.FieldList[9].AsString;
+end;
+
+procedure TForm8.FormShow(Sender: TObject);
+begin
+setawal;
 end;
 
 end.

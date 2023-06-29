@@ -119,9 +119,9 @@ object Form9: TForm9
     ParentFont = False
     TabOrder = 3
     Items.Strings = (
-      'Ortu'
+      'Orang Tua'
       'Siswa'
-      'Wali')
+      'Wali Kelas')
   end
   object b1: TButton
     Left = 16

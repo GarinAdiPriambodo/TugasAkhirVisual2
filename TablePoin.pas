@@ -39,6 +39,7 @@ type
     procedure b5Click(Sender: TObject);
     procedure b6Click(Sender: TObject);
     procedure dg1CellClick(Column: TColumn);
+    procedure FormShow(Sender: TObject);
   private
     { Private declarations }
   public
@@ -192,6 +193,11 @@ e1.Text:= zqry1.FieldList[1].AsString;
 e2.Text:= zqry1.FieldList[2].AsString;
 cbb1.Text:= zqry1.FieldList[3].AsString;
 cbb2.Text:= zqry1.FieldList[4].AsString;
+end;
+
+procedure TForm7.FormShow(Sender: TObject);
+begin
+setawal;
 end;
 
 end.

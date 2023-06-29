@@ -12,6 +12,7 @@ object Form8: TForm8
   Font.Style = []
   OldCreateOrder = False
   OnCreate = FormCreate
+  OnShow = FormShow
   PixelsPerInch = 96
   TextHeight = 13
   object l1: TLabel
@@ -468,7 +469,7 @@ object Form8: TForm8
     PrintOptions.Printer = 'Default'
     PrintOptions.PrintOnSheet = 0
     ReportOptions.CreateDate = 45101.545964409700000000
-    ReportOptions.LastChange = 45106.539040173600000000
+    ReportOptions.LastChange = 45106.695709375000000000
     ScriptLanguage = 'PascalScript'
     ScriptText.Strings = (
       'begin'
@@ -595,7 +596,7 @@ object Form8: TForm8
         object Memo10: TfrxMemoView
           Left = 548.031850000000000000
           Top = 15.118120000000000000
-          Width = 71.811070000000000000
+          Width = 105.826840000000000000
           Height = 18.897650000000000000
           ShowHint = False
           Font.Charset = DEFAULT_CHARSET
@@ -683,9 +684,9 @@ object Form8: TForm8
           VAlign = vaCenter
         end
         object Memo16: TfrxMemoView
-          Left = 619.842920000000000000
+          Left = 653.858690000000000000
           Top = 15.118120000000000000
-          Width = 98.267780000000000000
+          Width = 64.252010000000000000
           Height = 18.897650000000000000
           ShowHint = False
           Font.Charset = DEFAULT_CHARSET
@@ -786,7 +787,7 @@ object Form8: TForm8
         end
         object Memo11: TfrxMemoView
           Left = 548.031850000000000000
-          Width = 71.811070000000000000
+          Width = 105.826840000000000000
           Height = 18.897650000000000000
           ShowHint = False
           DataField = 'status'
@@ -885,8 +886,8 @@ object Form8: TForm8
           VAlign = vaCenter
         end
         object Memo21: TfrxMemoView
-          Left = 619.842920000000000000
-          Width = 98.267780000000000000
+          Left = 653.858690000000000000
+          Width = 64.252010000000000000
           Height = 18.897650000000000000
           ShowHint = False
           DataField = 'tingkat_kelas'

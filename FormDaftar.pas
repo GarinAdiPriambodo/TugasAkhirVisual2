@@ -62,7 +62,7 @@ zqry1.ExecSQL;
 zqry1.SQL.Clear;
 zqry1.SQL.Add('select * from table_user');
 zqry1.Open;
-ShowMessage('DATA BERHASIL DISIMPAN!');
+Application.MessageBox('BERHASIL MENDAFTAR','Informasi',MB_OK or MB_ICONINFORMATION)
 
 end;
 setawal;
